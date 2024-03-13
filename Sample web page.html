@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Food Page YK</title>
+    </head>
+    <style>
+    
+    body {
+        background-color: #fafafa ;
+    }
+    header {
+        background-color: black;
+        min-height: 15px;
+        text-align: center;
+    }
+    main {
+        min-height: 450px;
+        
+    }
+
+
+    .nav-bar {
+        width: 200px;
+        float: left;
+        min-height: 450px;
+        
+    }
+    ul {
+        list-style-type: none;
+        width: 40px;
+        height: 100%;
+        
+
+    }
+    h1 {
+        padding-left: 10px;
+        font-size: 30px;
+        color: black;
+
+    }
+
+    li a {
+        display: inline-block;
+        padding: 20px 0px;
+        text-decoration: none;
+        color: grey;
+
+    }
+
+    #strike {
+        text-decoration: line-through red;
+    }
+
+    .input_cart {
+        margin: 25px 20px;
+        padding: 15px 40px;
+        border: 1px solid;
+        border-radius: 30px;
+        background-color: #ff4e4e;
+        color: white;
+    }
+
+
+    .aside {
+        min-height: 450px
+    }
+    .content {
+        min-height: 200px;
+    }
+    .content-left {
+        width: 400px;
+        float: left;
+        min-height: 200px;
+
+        font-size: 50px;
+        font-family: serif;
+        font-weight: bold;
+        padding-left: 15px;
+        padding-top: 25px;
+
+        
+    }
+    .content-right {
+        min-height: 200px;
+        font-family: monospace;
+        color: grey;
+
+        padding-top: 90px;
+        line-height: 1.5;
+        
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        
+        
+    }    
+        
+
+    .foods {
+        display: inline;
+    }
+    .food-list { 
+        width: 120px;
+        height: 160px;
+        
+        
+        display: flex;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+              
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 8px 5px 8px 5px  #888888;
+
+
+        float:left;
+        padding: 5px;
+        margin: 20px 10px;
+    }
+
+    img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    }
+    
+    @media only screen and (max-width: 558px){
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        } 
+    }
+     
+    </style>
+
+    <body>
+        <header>
+            <nav>Food Page YK</nav>
+        </header>
+        <main>
+            <section class="nav-bar">
+                <ul class=nav-list>
+                    <div class="img">
+                        <h1>Lorem Ipsum</h1>
+                        <li><a href="" id=strike>About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Cuisine</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Book</a></li>
+                    </div>
+                    <input type="submit" value="Cart" id="input_cart" class="input_cart" />
+                </ul></section>
+            <section class="aside">
+                <div class="content">
+                    <div class="content-left">
+                        <p>What are you having for Lunch?<p>
+                    </div>
+                    <div class="content-right">
+                        Loreum ipsum  dolor sit  amet, <br>
+                        consectetu adipiscing elit, <br>
+                        sed do eiusmod tempor<br>
+                        incididunt ut labore at.
+                    </div>
+                </div>
+
+                <div class="foods"> 
+                    <div class="food-list">
+                        <figure>
+                            <img src="mexican-taco.jpg" alt="">
+                            <figcaption> <b>Mexican Taco</b> </figcaption>
+                        </figure>
+                    </div>
+                    <div class="food-list">
+                        <figure>
+                            <img src="farmhouse-pizza.jpg" alt="">
+                            <figcaption> <b>Farmhouse Pizza</b></figcaption>
+                        </figure>
+                    </div>
+                    <div class="food-list">
+                        <figure>
+                            <img src="chicken-burger.jpg" alt="">
+                            <figcaption><b>Chicken Burger</b></figcaption>
+                        </figure>
+                    </div>
+                    <div class="food-list">
+                        <figure>
+                            <img src="loaded-nachoes.jpg" alt="">
+                            <figcaption> <b>Loaded Nachoes</b> </figcaption>
+                        </figure>
+                    </div>
+                    <div class="food-list">
+                        <figure>
+                            <img src="hakka-noodles.jpg" alt="">
+                            <figcaption > <b>Hakka Noodles</b></figcaption>
+                        </figure>
+                    </div>
+                 
+                </div>
+    
+                
+            </section>
+        </main>
+        
+       
+    </body>
+</html>
